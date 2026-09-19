@@ -22,7 +22,7 @@ librespot-metadata = { version = "0.8.0" }
 log = "0.4.34"
 chrono = "0.4.45"
 chrono-humanize = "0.2.3"
-reqwest = { version = "0.12.28", default-features = false, features = ["charset", "http2", "system-proxy", "json", "query", "form", "blocking"] }
+reqwest = { version = "0.12.28", default-features = false, features = ["charset", "http2", "system-proxy", "json", "blocking"] }
 reqwest-middleware = "0.4.2"
 rspotify = {version = "0.16.1", features = ["cli", "reqwest-middleware"] }
 http = "1.5.0"
